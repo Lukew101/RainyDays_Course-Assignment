@@ -90,7 +90,7 @@ nav,
 }
 
 .cart-hamburger {
-    display: inherit;
+    display: inline-flex;
 }
 
 @media (min-width: 500px) {
@@ -99,7 +99,7 @@ nav,
         position: relative;
         width: 90px;
         height: 45px;
-        padding: 2px;
+        padding: 2px 15px;
     }
     
     .small-screen-logo {
@@ -113,18 +113,19 @@ nav,
     }
 }
 
-@media (min-width: 850px) {
+@media (min-width: 800px) {
     header {
         justify-content: start;
     }
 
-    .menu {
+    .fas {
         display: none;
     }
 
     nav {
         display: block;
-        top: 25px;
+        top: 12px;
+        right: 5px;
     }
     
     nav li {
@@ -133,14 +134,13 @@ nav,
     }
 
     nav ul {
-        font-size: 0.7em;
-        font-stretch: expanded;
+        font-size: 0.8em;
         padding-left: 0;
         height: 25px;
     }
 
     nav a {
-        padding-right: 10px;
+        padding-right: 5px;
     }
 
     .search-bar_lens {
@@ -148,4 +148,8 @@ nav,
         padding-right: 10px;
         width: 30%;
     }
+
+    .home-remove {
+        display: none;
+    } 
 }
