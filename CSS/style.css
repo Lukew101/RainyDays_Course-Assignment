@@ -118,10 +118,6 @@ nav,
         justify-content: start;
     }
 
-    .fas {
-        display: none;
-    }
-
     nav {
         display: block;
         top: 12px;
@@ -152,4 +148,13 @@ nav,
     .home-remove {
         display: none;
     } 
+
+    .fas {
+        display: none;
+    }
+
+    .fa,
+    .search-bar {
+        justify-content: space-between;
+    }
 }
