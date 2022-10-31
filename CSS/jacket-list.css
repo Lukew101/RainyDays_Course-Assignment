@@ -42,3 +42,8 @@ main ul ul {
     position: relative;
     display: none;
 }
+
+/* Jacket specific */
+img {
+    width: 50px;
+}

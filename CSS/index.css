@@ -1,7 +1,3 @@
-main {
-    margin-top: 40px;
-}
-
 .autumn-home {
     background: url(/Images/Autumn-sales.jpg);
     background-size: cover;
@@ -16,9 +12,4 @@ main {
 
 .categories__home img {
     width: 100px;
-}
-
-.popular__products img {
-    width: 80px;
-    height: 100%;
 }
