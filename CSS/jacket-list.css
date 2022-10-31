@@ -1,0 +1,44 @@
+#filter-checkbox,
+#colour-checkbox,
+#size-checkbox,
+#price-checkbox,
+#type-checkbox {
+    display: none;
+}
+
+#filter-checkbox:checked ~ nav {
+    display: block;
+}
+
+#colour-checkbox:checked ~ .colour-nav {
+    display: block;
+}
+
+#size-checkbox:checked ~ .size-nav {
+    display: block;
+}
+
+#price-checkbox:checked ~ .price-nav {
+    display: block;
+}
+
+#type-checkbox:checked ~ .type-nav {
+    display: block;
+}
+
+main nav ul {
+    padding: 0;
+    margin: 0;
+
+}
+
+main nav ul li {
+    position: relative;
+    display: block;
+    padding: 2px 15px;
+}
+
+main ul ul {
+    position: relative;
+    display: none;
+}

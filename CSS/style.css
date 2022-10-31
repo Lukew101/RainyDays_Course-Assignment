@@ -1,6 +1,18 @@
 @import "imports/links.css";
 @import "imports/variables.css";
 
+h1 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+}
+
+h2,
+h3,
+p, 
+nav {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
 body {
     min-height: 100vh;
     margin: 0px;
@@ -38,7 +50,11 @@ nav,
     display: block;
 }
 
-nav {
+nav li {
+    list-style: none;
+}
+
+header nav {
     justify-content: center;
     position: absolute;
     background: #d9d9d9;
@@ -46,18 +62,17 @@ nav {
     top: 60px;
 }
 
-nav ul {
+header nav ul {
     padding-left: 15px;
     margin: 0;
 }
 
-nav li {
-    list-style: none;
-    font-size: 1.2em;
+header nav li {
+    font-size: 0.90em;
     padding: 10px;
 }
 
-nav a {
+header nav a {
     display: block;
     color: black;
     padding: 0 10px 20px;
@@ -80,85 +95,18 @@ nav a {
     width: 100%;
 }
 
+main {
+    margin-top: 40px;
+}
+
+.products img {
+    width: 80px;
+    height: 100%;
+}
+
 footer {
     background: #d9d9d9;
     display: flex;
     justify-content: space-between;
     padding: 0 10px;
-}
-
-/* Home */
-main {
-    margin-top: 50px;
-}
-
-.autumn-home {
-    background: url(/Images/Autumn-sales.jpg);
-    background-size: cover;
-    min-height: 50vh;
-    position: relative;
-}
-
-.autumn-home__content {
-    position: absolute;
-    text-align: center;
-}
-
-.categories__home img {
-    width: 100px;
-}
-
-.popular__products img {
-    width: 80px;
-    height: 100%;
-}
-
-
-
-
-/* Media */
-@media (min-width: 500px) {
-    .logo {
-        min-width: 90px;
-        min-height: 100%;
-    }
-
-    .search-bar_lens {
-        padding-left: 0px;
-        padding-right: 0px;
-        width: 50%;
-    }
-}
-
-@media (min-width: 800px) {
-    header .fa-bars {
-        display: none;
-    }
-
-    nav {
-        display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        left: 0;
-        top: 6px;
-    }
-
-    nav li {
-        display: inline-block;
-        padding: 0;
-    }
-
-    nav ul {
-        font-size: 0.8em;
-        padding: 0;
-       
-    }
-
-    .home-remove {
-        display: none;
-    }
-
-    .search-bar_lens {
-        width: 30%;
-    }
 }
