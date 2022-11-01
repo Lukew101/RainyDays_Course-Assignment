@@ -1,0 +1,14 @@
+#card-checkbox,
+#paypal-checkbox {
+    display: none;
+}
+
+form .card-form,
+.paypal-form {
+    display: none;
+}
+
+#card-checkbox:checked ~ form .card-form,
+#paypal-checkbox:checked ~ form .paypal-form {
+    display: block;
+}

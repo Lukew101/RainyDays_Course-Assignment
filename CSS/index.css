@@ -1,15 +1,23 @@
 .autumn-home {
     background: url(/Images/Autumn-sales.jpg);
     background-size: cover;
-    min-height: 50vh;
+    background-repeat: no-repeat;
+    min-height: 40vh;
     position: relative;
+    text-align: center;
+    max-width: 1000px;
 }
 
-.autumn-home__content {
-    position: absolute;
-    text-align: center;
+h1 {
+    color: white;
 }
 
 .categories__home img {
     width: 100px;
 }
+
+.cta-autumn {
+    background-color: white;
+    color: black;
+}
+

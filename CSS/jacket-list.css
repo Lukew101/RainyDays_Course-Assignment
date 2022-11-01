@@ -6,22 +6,10 @@
     display: none;
 }
 
-#filter-checkbox:checked ~ nav {
-    display: block;
-}
-
-#colour-checkbox:checked ~ .colour-nav {
-    display: block;
-}
-
-#size-checkbox:checked ~ .size-nav {
-    display: block;
-}
-
-#price-checkbox:checked ~ .price-nav {
-    display: block;
-}
-
+#filter-checkbox:checked ~ nav,
+#colour-checkbox:checked ~ .colour-nav,
+#size-checkbox:checked ~ .size-nav,
+#price-checkbox:checked ~ .price-nav,
 #type-checkbox:checked ~ .type-nav {
     display: block;
 }
@@ -29,7 +17,6 @@
 main nav ul {
     padding: 0;
     margin: 0;
-
 }
 
 main nav ul li {

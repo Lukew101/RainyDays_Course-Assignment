@@ -1,16 +1,19 @@
 @import "imports/links.css";
 @import "imports/variables.css";
 
-h1 {
+h1,
+h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
 }
 
-h2,
 h3,
 p, 
 nav {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+a {
+    text-decoration: none;
 }
 
 body {
@@ -76,7 +79,6 @@ header nav a {
     display: block;
     color: black;
     padding: 0 10px 20px;
-    text-decoration: none;
 }
 
 .fa,
@@ -108,5 +110,6 @@ footer {
     background: #d9d9d9;
     display: flex;
     justify-content: space-between;
-    padding: 0 10px;
+    margin-left: 0;
+    padding: 0 5px;
 }

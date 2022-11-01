@@ -5,10 +5,10 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="description" content="View one of our most popular jackets - the black and red wind jacket">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>RainyDays │ Black & Red Wind Jacket</title>
+    <title>RainyDays │ Checkout Payment</title>
     <link href="../CSS/style.css" rel="stylesheet" />
     <link href="../CSS/media.css" rel="stylesheet" />
-    <link href="../CSS/jacket-list.css" rel="stylesheet" />
+    <link href="../CSS/checkout.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/958e18979f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -37,55 +37,64 @@
         </div>
     </header>
     <main>
-        <section class="product-spec-imgs">
-            <div><img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" /></div>
-            <div class="product-thumb-imgs">
-                <div class="thumb-img"><img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" /></div>
-                <div class="thumb-img"><img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" /></div>
-                <div class="thumb-img"><img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" /></div>
-                <div class="thumb-img"><img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" /></div>
-            </div>
+        <h1>Payment Details</h1>
+        <section>
+            <section class="card">
+                <label for=card-checkbox>Card</label>
+                <input type="checkbox" id="card-checkbox" />
+                <form method="POST">
+                    <section class="card-form">
+                        <label for="country">Card owner</label>
+                        <input type="text" id= "country" name="message">
+                        <label for="address-1">Card number</label>
+                        <input type="text" id= "address-1" name="address-1">
+                        <label for="address-2">Expiration date</label>
+                        <input type="text" id= "address-2" name="address-2">
+                        <label for="state">CVV</label>
+                        <input type="text" id= "state" name="state">
+                    </section>
+                </form>
+            </section>
+            <section class="paypal">
+                <label for=paypal-checkbox>Paypal</label>
+                <input type="checkbox" id="paypal-checkbox" />
+                <form  method="POST">
+                    <section class="paypal-form">
+                        <label for="country">Card owner</label>
+                        <input type="text" id= "country" name="message">
+                        <label for="address-1">Card number</label>
+                        <input type="text" id= "address-1" name="address-1">
+                        <label for="address-2">Expiration date</label>
+                        <input type="text" id= "address-2" name="address-2">
+                        <label for="state">CVV</label>
+                        <input type="text" id= "state" name="state">
+                    </section>
+                </form>
+            </section>
         </section>
         <section>
-            <p>kr 1 800,00</p>
-            <label for="size">Size</label>
-              <select id="size" name="Size">
-                <option value="Extra Small">Extra Small</option>
-                <option value="Small">Small</option>
-                <option value="Medium">Medium</option>
-                <option value="Large">Large</option>
-              </select> 
-            <div class="cta-main">
-                <a href="../Checkout/order-summ.html"><i class=" fa fa-shopping-cart"></i> Add to cart</a>
-            </div>
-            <div>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star"></i>
-                <i class="fa-solid fa-star-half-stroke"></i>
-                <p>(18)</p>
-            </div>
+            <section>
+                <div><img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" /></div>
+                <p>Black & Red Wind Jacket</p>
+                <p>Size: </p>
+                <p>NOK 1 900,00</p>
+            </section>
+            <section>
+                <p>Subtotal</p>
+                <p>Shipping</p>
+                <p>GST</p>
+                <p>Total amount</p>
+            </section>
+            <section>
+                <p>NOK</p>
+                <p>NOK</p>
+                <p>NOK</p>
+                <p>NOK</p>
+            </section>
         </section>
-        <section>
-            <div>
-                <p>Product Description</p>
-                <p>The black and red wind jacket is a part of the newest runner 2000 edition. This durable jacket is great for all outdoor activities, such as hiking or canoeing.</p>
-            </div>
-            <div>
-                <p>Customer Reviews</p>
-                <p>John Dee</p>
-                <p>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                    <i class="fa-solid fa-star"></i>
-                </p>
-                <p>Satisfied cuatomer</p>
-                <p>I bought this jacket last week and I was very impressed. It got here in 3 days and the jacket itself is fantastic quality. I will definitely be shopping here in the future.</p>
-            </div>
-        </section>
+        <div class="cta-main">
+            <a href="/Checkout/checkout-succ.html">Confirm Payment</a>
+        </div>
     </main>
     <footer>
         <div class="footer-det">
