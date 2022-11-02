@@ -1,23 +1,76 @@
+h1 {
+    text-align: center;  
+}
+
 .autumn-home {
     background: url(/Images/Autumn-sales.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    min-height: 40vh;
+    background-position: top center;
+    min-height: 30vh;
     position: relative;
-    text-align: center;
-    max-width: 1000px;
+    max-width: 2000px;
+    align-content: center;
 }
 
-h1 {
+.autumn-header,
+.categories__home h2 {
     color: white;
-}
-
-.categories__home img {
-    width: 100px;
 }
 
 .cta-autumn {
     background-color: white;
+    border-radius: 8px;
     color: black;
+    font-weight: bold;
+    position: absolute;
+    bottom: 10px;
+    left: 40%;
+    padding: 3px 6px;
+    text-align: center;
 }
 
+.home-cat {
+    margin: 5px 10px;
+}
+
+.jacket-cat-txt {
+    position: relative;
+    bottom: 40px;
+    text-align: center;
+}
+
+.categories__home h2 {
+    font-size: 16px;
+}
+
+.categories__home img {
+    width: 150px;
+}
+
+.popular__products,
+.categories__home {
+    display: grid;
+    grid-template-columns: 1fr;
+    place-items: center;
+    justify-content: center;
+    margin: 0 25%;
+}
+
+.pop-product-sec {
+    position: relative;
+    top: -40px;
+}
+
+.products img {
+    width: 120px;
+    height: 150px;
+}
+
+h3 {
+    font-size: 1.5vh;
+}
+
+p {
+    font-size: 1.2vh;
+}

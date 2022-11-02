@@ -6,9 +6,14 @@ h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
+h1 {
+    text-transform: uppercase;
+}
+
 h3,
 p, 
-nav {
+nav,
+a {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -53,10 +58,6 @@ nav,
     display: block;
 }
 
-nav li {
-    list-style: none;
-}
-
 header nav {
     justify-content: center;
     position: absolute;
@@ -81,6 +82,10 @@ header nav a {
     padding: 0 10px 20px;
 }
 
+nav li {
+    list-style: none;
+}
+
 .fa,
 .fas {
     color: black;
@@ -101,15 +106,39 @@ main {
     margin-top: 40px;
 }
 
-.products img {
-    width: 80px;
-    height: 100%;
+.products {
+    margin: 5px 5px;
+    background: #DDE0E1;
+    width: 163px;
+    height: 295px;
+    text-align: center;
 }
 
+
+/* Footer */
 footer {
     background: #d9d9d9;
-    display: flex;
+    grid-template-columns: 1fr 1fr;
+    display: grid;
+    flex-direction: row;
     justify-content: space-between;
     margin-left: 0;
+}
+
+footer .fa-brands {
+    color: black;
+    font-size: 35px;
+    margin: 0 2px;
+}
+
+.footer-det {
     padding: 0 5px;
+}
+
+footer h3 {
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 12px;
 }

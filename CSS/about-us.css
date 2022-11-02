@@ -1,0 +1,33 @@
+.about-us {
+    background-image: url(../Images/About-us-small.jpg);
+    background-size: 100%;
+    position: relative;
+    min-height: 30vh;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+.about-us__main p {
+    text-align: left;
+    font-size: 12px;
+    line-height: 20px;
+}
+
+.about-us p {
+    text-align: left;
+    margin: 0 20px;
+}
+
+.mission-backstory {
+    text-align: center;
+    min-height: 20vh;
+}
+
+.mission-backstory p {
+    margin: 5px 20px;
+}
+
+.mission-backstory img {
+    width: 200px;
+}

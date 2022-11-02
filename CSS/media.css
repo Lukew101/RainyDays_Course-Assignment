@@ -1,3 +1,12 @@
+@media (min-width: 350px) {
+    
+    /* Home */
+    .popular__products,
+    .categories__home {
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
 @media (min-width: 500px) {
     .logo {
         min-width: 90px;
@@ -9,9 +18,67 @@
         padding-right: 0px;
         width: 50%;
     }
+
+    /* Home Page */
+    .autumn-home {
+        min-height: 40vh;
+    }
+
+    .popular__products {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+
+    .categories__home img {
+        width: 200px;
+    }
+
+    .products {
+        width: 150px;
+        height: 275px;
+    }
+    
+    .products img {
+        width: 100px;
+        height: 120px;
+    }
+
+    /* About us */
+    .about-us {
+        background-image: url(../Images/About-us-large.jpg);
+        min-height: 35vh;
+        text-align: left;
+    }
+
+    .about-us__txt h1 {
+        margin: 20px 20px;
+    }
+
+    .about-us p {
+        max-width: 40%;
+    }
+
+    .our-mission,
+    .our-backstory {
+    display: flex;
+    justify-content: center;
+    }
+    
+    .mission-backstory p {
+        max-width: 40%;
+    }
+
+
+
+    /* Footer */
+
+    footer {
+        grid-template-columns: 1fr 1fr 1fr;
+    }
 }
 
 @media (min-width: 800px) {
+    
+    /* Header */
     header .fa-bars {
         display: none;
     }
@@ -32,7 +99,6 @@
     header nav ul {
         font-size: 0.8em;
         padding: 0;
-       
     }
 
     .home-remove {
@@ -41,5 +107,54 @@
 
     .search-bar_lens {
         width: 30%;
+    }
+
+    .products {
+        margin: 5px 20px;
+        width: 160px;
+    }
+
+    /* Home */
+    .autumn-home {
+        min-height: 55vh;
+        background-position: center left;
+    }
+
+    .cta-autumn {
+        left: 45%;
+    }
+
+    .popular__products {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+        margin: 0 50%;
+    }
+
+    .categories__home {
+        margin: 0 50%;
+    }
+
+    .categories__home img {
+        width: 250px;
+    }
+
+    /* About us */
+    .about-us,
+    .our-mission,
+    .our-backstory {
+        min-height: 40vh;
+    }
+
+    .mission-backstory img {
+        width: 300px;
+    }
+
+    /* Footer */
+    footer {
+        grid-template-columns: 1fr 1fr 1fr 1fr;
+    }
+
+    footer .fa-brands { 
+        font-size: 50px;
+        margin: 0 5px;
     }
 }
