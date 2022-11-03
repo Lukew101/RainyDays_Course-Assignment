@@ -48,10 +48,6 @@ h1 {
     width: 150px;
 }
 
-.home-cat:hover {
-    transform: scale(1.1);
-}
-
 .pop-product-sec {
     position: relative;
     top: -40px;

@@ -11,10 +11,7 @@ h1 {
     font-size: 24px;
 }
 
-h3,
-p, 
-nav,
-a {
+h3, p, nav, a, .filter {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -124,7 +121,10 @@ main {
     border-radius: 5px;
     width: 200px;
     height: 33px;
-    background-color: #BEBFBF;
+    background-color: #0A3641;
+    display: flex;
+    align-items: center;
+    justify-content: center;
 }
 
 /* Global Product */

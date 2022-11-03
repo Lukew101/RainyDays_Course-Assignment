@@ -35,6 +35,7 @@ main ul ul {
 
 h1 {
     text-align: center;
+    margin-top: 30px;
 }
 
 .filter {
@@ -76,17 +77,32 @@ h1 {
     flex: 1;
 }
 
+.prod-spec-review {
+    display: flex;
+    margin: 0 0px 10px 40px;
+    font-size: 16px;
+}
+
 .product-thumb-imgs {
     display: flex;
     gap: 10px;
 }
 
-.spec-jack-main {
+.spec-page {
     display: grid;
     grid-template-columns: 1fr;
     align-items: center;
 }
 
-.spec-content {
-    align-items: center;
+.spec-content
+  {
+    text-align: center;
+}
+
+.spec-content > p, #size {
+    margin-bottom: 15px;
+}
+
+.spec-rev-descr {
+    margin-left: 10px;
 }
