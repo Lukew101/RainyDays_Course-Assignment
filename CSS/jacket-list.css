@@ -6,7 +6,10 @@
     display: none;
 }
 
-#filter-checkbox:checked ~ nav,
+#filter-checkbox:checked ~ nav {
+    display: block;
+}
+
 #colour-checkbox:checked ~ .colour-nav,
 #size-checkbox:checked ~ .size-nav,
 #price-checkbox:checked ~ .price-nav,
@@ -30,7 +33,60 @@ main ul ul {
     display: none;
 }
 
+h1 {
+    text-align: center;
+}
+
+.filter {
+    margin-left: 5px;
+    font-size: 16px;
+}
+
+.filter ul {
+    font-size: 12px;
+}
+
+.inline-nav {
+    display: inline-block;
+}
+
+.colour-nav {
+    position: relative;
+}
+
+
 /* Jacket specific */
-img {
+.spec-main-img img {
+    width: 250px;
+}
+
+.thumb-img img {
     width: 50px;
+}
+
+.product-spec-imgs {
+    display: flex;
+    max-width: 1000px;
+    flex-direction: column;
+    margin-bottom: 50px;
+    align-items: center;
+}
+
+.product-spec-imgs > * {
+    flex: 1;
+}
+
+.product-thumb-imgs {
+    display: flex;
+    gap: 10px;
+}
+
+.spec-jack-main {
+    display: grid;
+    grid-template-columns: 1fr;
+    align-items: center;
+}
+
+.spec-content {
+    align-items: center;
 }

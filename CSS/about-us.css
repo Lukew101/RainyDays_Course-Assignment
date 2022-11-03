@@ -1,6 +1,7 @@
 .about-us {
     background-image: url(../Images/About-us-small.jpg);
     background-size: 100%;
+    background-repeat: no-repeat;
     position: relative;
     min-height: 30vh;
     background-position: center;

@@ -1,0 +1,52 @@
+.contact {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+textarea,
+#input-bar {
+    max-width: 200px;
+}
+
+.form-wrapper {
+    border: solid;
+    border-width: 1px;
+}
+
+.form-wrapper {
+    display: grid;
+    text-align: left;
+    justify-content: center;
+}
+
+.form-wrapper > * {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+}
+
+h2 {
+    text-align: left;
+}
+
+.contact-us-form {
+    margin: 10px;
+}
+
+.contact-main h1 {
+    margin: 30px 20%;
+}
+
+.contact-form,
+.phone-social-wrap {
+    margin: 0 20%;
+}
+
+textarea {
+    height: 50%;
+    min-height: 100px;
+}
+
+.cta-send {
+    margin: 5px 25%;
+}
