@@ -8,7 +8,7 @@
 }
 
 @media (min-width: 500px) {
-    /* Generaø */
+    /* General */
     .products {
         width: 150px;
         height: 275px;
@@ -91,6 +91,18 @@
 
     .phone-social-wrap h2 {
         text-align: left;
+    }
+
+    /* Jacket Page */
+
+
+    /* Jacket specific page */
+    .product-spec-imgs .spec-main-img img {
+        width: 350px;
+    }
+    
+    .product-spec-imgs .thumb-img img {
+        width: 80px;
     }
    
     /* Footer */
@@ -213,13 +225,41 @@
         padding: 0;
     }
 
-      /* Jacket page */
+      /* Jacket list page */
       .filter #filter-checkbox {
         display: none;
     }
 
+    /* Jacket specific page */
+
+    .all-jack-info .spec-rev-descr {
+        margin-left: 0;
+    }
+
+    .spec-jack-main h1 {
+        max-width: 380px;
+        margin-bottom: 50px;
+    }
+
+    .all-jack-info {
+        margin-left: 30px;
+    }
     .spec-page {
-        grid-template-columns: 1fr 1fr;
+        display: flex;
+        margin: 0 20px;
+    }
+
+    .all-jack-info .spec-content {
+        justify-content: left;
+        text-align: left;
+    }
+
+    .spec-content .prod-spec-review {
+        margin-left: 0;
+    }
+
+    .product-spec-imgs {
+        flex: 80vh;
     }
 
     /* Footer */

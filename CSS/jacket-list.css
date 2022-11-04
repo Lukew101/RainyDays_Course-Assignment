@@ -67,9 +67,8 @@ h1 {
 
 .product-spec-imgs {
     display: flex;
-    max-width: 1000px;
     flex-direction: column;
-    margin-bottom: 50px;
+    margin-bottom: 20px;
     align-items: center;
 }
 
@@ -79,7 +78,7 @@ h1 {
 
 .prod-spec-review {
     display: flex;
-    margin: 0 0px 10px 40px;
+    margin-left: 40px;
     font-size: 16px;
 }
 
@@ -88,14 +87,9 @@ h1 {
     gap: 10px;
 }
 
-.spec-page {
+.spec-content {
     display: grid;
-    grid-template-columns: 1fr;
-    align-items: center;
-}
-
-.spec-content
-  {
+    justify-content: center;
     text-align: center;
 }
 

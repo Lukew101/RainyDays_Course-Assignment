@@ -1,3 +1,24 @@
+/* General for Checkout */
+img {
+    width: 150px;
+}
+
+/* Order Summary */
+.checkout-review,
+.checkout-costs,
+.cta-continue,
+h1 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.checkout-img,
+.checkout-prod-cont {
+    margin: 20px 20px;
+}
+
 #card-checkbox,
 #paypal-checkbox {
     display: none;
