@@ -11,13 +11,20 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 30px;
 }
 
 .checkout-img,
 .checkout-prod-cont {
     margin: 20px 20px;
 }
+
+.costs-prices {
+    margin-left: 20px;
+}
+
+
+/* Checkout Payment */
 
 #card-checkbox,
 #paypal-checkbox {

@@ -1,6 +1,7 @@
 @import "imports/links.css";
 @import "imports/variables.css";
 
+/* Global */
 h1,
 h2 {
     font-family: Georgia, 'Times New Roman', Times, serif;
@@ -31,6 +32,11 @@ body {
     text-decoration: underline;
 }
 
+.bold-heading {
+    font-weight: bold;
+}
+
+/* Header */
 header {
     display: flex;
     position: absolute;
@@ -103,6 +109,7 @@ nav li {
     width: 100%;
 }
 
+/* Main */
 main {
     margin-top: 40px;
     min-height: 90vh;
@@ -127,7 +134,7 @@ main {
     justify-content: center;
 }
 
-/* Global Product */
+/* Constant Product Applications */
 .popular__products,
 .categories__home {
     display: grid;

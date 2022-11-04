@@ -119,6 +119,7 @@
         width: 160px;
     }
 
+    .thumb-img img:hover,
     .products:hover {
         border-style: solid;
         border-width: 1px;
