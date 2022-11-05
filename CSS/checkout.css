@@ -1,6 +1,21 @@
 /* General for Checkout */
 img {
-    width: 150px;
+    width: 100px;
+}
+
+.checkout-review {
+    border-bottom: 1px solid;
+    margin: 0 10%;
+}
+
+.checkout-review img {
+    width: 70px;
+}
+
+.checkout-review p,
+.checkout-costs p {
+    font-size: 12px;
+
 }
 
 /* Order Summary */
@@ -11,7 +26,7 @@ h1 {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 30px;
+    margin-top: 50px;
 }
 
 .checkout-img,
@@ -21,6 +36,18 @@ h1 {
 
 .costs-prices {
     margin-left: 20px;
+}
+
+/* Checkout Details */
+.form-wrapper {
+    display: grid;
+    text-align: left;
+    margin-bottom: 10px;
+    margin: 0 20%;
+}
+
+#input-bar {
+    max-width: 250px;
 }
 
 
