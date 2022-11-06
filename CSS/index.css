@@ -40,6 +40,11 @@ h1 {
     text-align: center;
 }
 
+.categories__home {
+    display: flex;
+    justify-content: center;
+}
+
 .categories__home h2 {
     font-size: 16px;
 }

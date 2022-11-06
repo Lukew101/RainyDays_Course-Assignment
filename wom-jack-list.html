@@ -38,97 +38,90 @@
     </header>
     <main>
         <div class="breadcrumb">
-            <a href="/index.html" class="bread-home">Home -</i></a>
-            <p class="bread-wom-jack active">Womens Jackets</p>
+            <p><a href="/index.html" class="bread-home">Home</a>&nbsp;/&nbsp;<u>Womens Jackets</u></p>
         </div>
-        <div class="form-wrapper">
-            <section class="filter">
-                <label for="filter-checkbox">Filter <i class="fa-solid fa-caret-down"></i></label>
-                <input type="checkbox" id="filter-checkbox" />
-                <nav>
-                   <ul>
-                       <li><label for="colour-checkbox">Colour <i class="fa-solid fa-caret-down"></i></label><input type="checkbox" id="colour-checkbox" />
-                            <ul class="colour-nav">
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Red</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Black</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Grey</label>
-                                </li>
-                            </ul>
-                       </li>
-                       <li><label for="size-checkbox">Size <i class="fa-solid fa-caret-down"></i></label><input type="checkbox" id="size-checkbox" />
-                            <ul class="size-nav">
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Red</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Black</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Grey</label>
-                                </li>
-                            </ul>
-                        </li>
-                        <li><label for="price-checkbox">Price <i class="fa-solid fa-caret-down"></i></label><input type="checkbox" id="price-checkbox" />
-                            <ul class="price-nav">
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Red</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Black</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Grey</label>
-                                </li>
-                            </ul>
-                       </li>
-                       <li><label for="type-checkbox">Type <i class="fa-solid fa-caret-down"></i></label><input type="checkbox" id="type-checkbox" />
-                            <ul class="type-nav">
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Red</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Black</label>
-                                </li>
-                                <li>
-                                    <input type="checkbox" id="checkbox" />
-                                    <label for="checkbox">Grey</label>
-                                </li>
-                            </ul>
-                       </li>
-                   </ul>
-                </nav>
-            </section>
-        </div>
+        <section class="filter">
+            <ul class="filter-flex">
+                <li><label for="colour-checkbox">Colour <i class="fa-solid fa-caret-down"></i></label><input type="checkbox" id="colour-checkbox" />
+                     <ul class="colour-nav">
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">Red</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">Black</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">Grey</label>
+                         </li>
+                     </ul>
+                </li>
+                <li><label for="size-checkbox">Size <i class="fa-solid fa-caret-down"></i></label><input type="checkbox" id="size-checkbox" />
+                     <ul class="size-nav">
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">Small</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">Medium</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">Large</label>
+                         </li>
+                     </ul>
+                 </li>
+                 <li><label for="price-checkbox">Price <i class="fa-solid fa-caret-down"></i></label><input type="checkbox" id="price-checkbox" />
+                     <ul class="price-nav">
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">0-1,500</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">1,500 - 3,000</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">3,000 +</label>
+                         </li>
+                     </ul>
+                </li>
+                <li><label for="type-checkbox">Type <i class="fa-solid fa-caret-down"></i></label><input type="checkbox" id="type-checkbox" />
+                     <ul class="type-nav">
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">Wind</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">Rain</label>
+                         </li>
+                         <li>
+                             <input type="checkbox" id="checkbox" />
+                             <label for="checkbox">Snow</label>
+                         </li>
+                     </ul>
+                </li>
+            </ul>
+        </section>
         <section class="product-list">
             <h1>Womens Jackets</h1>
             <div class="popular__products">
                 <div class="products">
-                    <a href="/Products/b&r-wind.html"><img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket"></a>
-                    <h3>Black & Red Wind Jacket</h3>
+                    <a href="/Products/b&r-wind.html"><img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket">
+                    <h3>Black & Red<br> Wind Jacket</h3>
                     <div class="reviews-home">
                         <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i> (18)</p>
                     </div>
-                    <p>kr 1 800,00</p>
+                    <p>kr 1 800,00</p></a>
                 </div>
                 <div class="products">
                     <img src="/Jacket-imgs/Black-Grey.png" alt="Black and Grey Jacket" />
-                    <h3>Black & Grey Wind Jacket</h3>
+                    <h3>Black & Grey<br> Wind Jacket</h3>
                     <div class="reviews-home">
                         <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i>(5)</p>
                     </div>
@@ -136,7 +129,7 @@
                 </div>
                 <div class="products">
                     <img src="Jacket-imgs/Grey-Rain-Wind.png" alt="Grey Rain and Wind Jacket" />
-                    <h3>Grey Rain and Wind Jacket</h3>
+                    <h3>Grey Rain &<br> Wind Jacket</h3>
                     <div class="reviews-home">
                         <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>(10)</p>
                     </div>
@@ -144,7 +137,7 @@
                 </div>
                 <div class="products">
                     <img src="/Jacket-imgs/Black-White-Rain.png" alt="Black and White Jacket" />
-                    <h3>Black & White Rain Jacket</h3>
+                    <h3>Black & White<br> Rain Jacket</h3>
                     <div class="reviews-home">
                         <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>(5)</p>
                     </div>
@@ -152,7 +145,7 @@
                 </div>
                 <div class="products">
                     <img src="/Jacket-imgs/Brown.png" alt="Brown jacket" />
-                    <h3>Brown Jacket</h3>
+                    <h3>Brown<br> Jacket</h3>
                     <div class="reviews-home">
                         <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>(2)</p>
                     </div>
@@ -160,7 +153,7 @@
                 </div>
                 <div class="products">
                     <img src="/Jacket-imgs/Orange-Grey-Rain.png" alt="Orange and grey rain jacket" />
-                    <h3>Orange & Grey Rain Jacket</h3>
+                    <h3>Orange & Grey<br> Rain Jacket</h3>
                     <div class="reviews-home">
                         <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-regular fa-star"></i>(7)</p>
                     </div>
@@ -168,7 +161,7 @@
                 </div>
                 <div class="products">
                     <img src="/Jacket-imgs/Grey-Wind.png" alt="Grey wind Jacket" />
-                    <h3>Grey Wind Jacket</h3>
+                    <h3>Grey Wind<br> Jacket</h3>
                     <div class="reviews-home">
                         <p><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star-half-stroke"></i>(12)</p>
                     </div>

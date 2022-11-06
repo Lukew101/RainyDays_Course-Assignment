@@ -1,23 +1,14 @@
 @media (min-width: 350px) {
     
     /* Home */
-    .popular__products,
-    .categories__home {
+    .popular__products {
         grid-template-columns: 1fr 1fr;
     }
 }
 
 @media (min-width: 500px) {
     /* General */
-    .products {
-        width: 150px;
-        height: 250px;
-    }
-    
-    .products img {
-        width: 100px;
-        height: 120px;
-    }
+ 
     
     .logo {
         min-width: 90px;
@@ -93,6 +84,12 @@
         text-align: left;
     }
 
+    /* Jacket List */
+    .product-list h1 {
+        text-align: left;
+        margin-left: 15px;
+    }
+
     /* Jacket specific page */
     .product-spec-imgs .spec-main-img img {
         width: 350px;
@@ -132,16 +129,14 @@
 
 @media (min-width: 800px) {
     /* General */
-    .products {
-        margin: 10px;
-        width: 160px;
+    .thumb-img img {
+        border: 1px solid white;
     }
-
+    
     .thumb-img img:hover,
     .products:hover {
-        border-style: solid;
-        border-width: 1px;
         transform: scale(1.1);
+        border: 1px solid gray;
     }
 
     .home-cat:hover {
@@ -191,11 +186,6 @@
 
     .popular__products {
         grid-template-columns: 1fr 1fr 1fr 1fr;
-        margin: 0 50%;
-    }
-
-    .categories__home {
-        margin: 0 50%;
     }
 
     .categories__home img {
@@ -244,8 +234,8 @@
         padding: 0;
     }
 
-      /* Jacket list page */
-      .filter #filter-checkbox {
+    /* Jacket list page */
+    .filter #filter-checkbox {
         display: none;
     }
 
@@ -255,8 +245,9 @@
     }
 
     .spec-jack-main h1 {
-        max-width: 380px;
+        margin-left: 10%;
         margin-bottom: 50px;
+        text-align: left;
     }
 
     .all-jack-info {
@@ -279,6 +270,10 @@
 
     .product-spec-imgs {
         flex: 80vh;
+    }
+
+    #size-butt {
+        margin-left: 0;
     }
 
     /* Footer */
