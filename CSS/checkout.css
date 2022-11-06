@@ -3,6 +3,10 @@ img {
     width: 100px;
 }
 
+h1 {
+    margin-top: 50px;
+}
+
 .checkout-review {
     border-bottom: 1px solid;
     margin: 0 10%;
@@ -18,19 +22,25 @@ img {
 
 }
 
-
-
-/* Order Summary */
 .checkout-review,
 .checkout-costs,
-.cta-continue,
-h1 {
+.cta-continue {
     display: flex;
     align-items: center;
     justify-content: center;
-    margin-top: 50px;
 }
 
+.card-paypal-box i {
+    font-size: 34px;
+    margin: 30px 0;
+}
+
+input {
+    margin: 5px 0;
+}
+
+
+/* Order Summary */
 .checkout-img,
 .checkout-prod-cont {
     margin: 20px 20px;
@@ -66,5 +76,36 @@ form .card-form,
 
 #card-checkbox:checked ~ form .card-form,
 #paypal-checkbox:checked ~ form .paypal-form {
-    display: block;
+    display: grid;
+    position: relative;
 }
+
+
+
+.checkout-succ-info {
+    text-align: left;
+    align-content: center;
+}
+
+.checkout-succ-info h2,
+.checkout-succ-info h3,
+h1 {
+    text-align: center;
+}
+
+.checkout-succ-info p {
+    margin: 20px 10px;
+}
+
+.checkout-succ-info .cta-main {
+    display: flex;
+    justify-content: center;
+}
+
+.card-paypal-flex {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+
+

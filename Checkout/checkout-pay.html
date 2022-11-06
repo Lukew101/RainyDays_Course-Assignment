@@ -37,65 +37,77 @@
         </div>
     </header>
     <main>
-        <h1>Payment Details</h1>
-        <section>
-            <section class="card">
-                <label for=card-checkbox>Card</label>
-                <input type="checkbox" id="card-checkbox" />
-                <form method="POST">
-                    <section class="card-form">
-                        <label for="country">Card owner</label>
-                        <input type="text" id= "country" name="message">
-                        <label for="address-1">Card number</label>
-                        <input type="text" id= "address-1" name="address-1">
-                        <label for="address-2">Expiration date</label>
-                        <input type="text" id= "address-2" name="address-2">
-                        <label for="state">CVV</label>
-                        <input type="text" id= "state" name="state">
-                    </section>
-                </form>
+        <h1 class="checkout-h1">Payment Details</h1>
+        <div class="checkout-flex">
+            <section class="card-paypal-flex">
+                <div class="card-paypal-box">
+                    <label for=card-checkbox><i class="fa-solid fa-credit-card"></i> Card</label>
+                    <input type="checkbox" id="card-checkbox" />
+                    <form method="POST">
+                        <section class="card-form">
+                            <label for="country">Card owner</label>
+                            <input type="text" id= "country" name="message">
+                            <label for="address-1">Card number</label>
+                            <input type="text" id= "address-1" name="address-1">
+                            <label for="address-2">Expiration date</label>
+                            <input type="text" id= "address-2" name="address-2">
+                            <label for="state">CVV</label>
+                            <input type="text" id= "state" name="state">
+                            <section class="cta-continue">
+                                <div class="cta-main">
+                                    <a href="/Checkout/checkout-succ.html">Confirm Details</a>
+                                </div>
+                            </section>
+                        </section>
+                    </form>
+                </div>
+                <div class="card-paypal-box">
+                    <label for=paypal-checkbox><i class="fa-brands fa-paypal"></i> Paypal</label>
+                    <input type="checkbox" id="paypal-checkbox" />
+                    <form  method="POST">
+                        <section class="paypal-form">
+                            <label for="country">Card owner</label>
+                            <input type="text" id= "country" name="message">
+                            <label for="address-1">Card number</label>
+                            <input type="text" id= "address-1" name="address-1">
+                            <label for="address-2">Expiration date</label>
+                            <input type="text" id= "address-2" name="address-2">
+                            <label for="state">CVV</label>
+                            <input type="text" id= "state" name="state">
+                            <section class="cta-continue">
+                                <div class="cta-main">
+                                    <a href="/Checkout/checkout-succ.html">Confirm Details</a>
+                                </div>
+                            </section>
+                        </section>
+                    </form>
+                </div>
             </section>
-            <section class="paypal">
-                <label for=paypal-checkbox>Paypal</label>
-                <input type="checkbox" id="paypal-checkbox" />
-                <form  method="POST">
-                    <section class="paypal-form">
-                        <label for="country">Card owner</label>
-                        <input type="text" id= "country" name="message">
-                        <label for="address-1">Card number</label>
-                        <input type="text" id= "address-1" name="address-1">
-                        <label for="address-2">Expiration date</label>
-                        <input type="text" id= "address-2" name="address-2">
-                        <label for="state">CVV</label>
-                        <input type="text" id= "state" name="state">
-                    </section>
-                </form>
-            </section>
-        </section>
-        <div class="product-detail  side-border">
-            <section class="checkout-review">
-                <div class="checkout-img">
-                    <img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" />
-                </div>
-                <div class="checkout-prod-cont">
-                    <p>Black & Red Wind Jacket</p>
-                    <p>Size: </p>
-                    <p>NOK 1 900,00</p>
-                </div>
-            </section>
-            <section class="checkout-costs">
-                <div class="costs-headings">
-                    <p>Subtotal</p>
-                    <p>Shipping</p>
-                    <p>GST</p>
-                    <p class="bold-heading">Total amount</p>
-                </div>
-                <div class="costs-prices">
-                    <p>NOK 1 900, 00</p>
-                    <p>NOK &nbsp;&nbsp;&nbsp;100, 00</p>
-                    <p>NOK &nbsp;&nbsp;&nbsp;400, 00</p>
-                    <p class="bold-heading">NOK 2 000, 00</p>
-                </div>
+            <section class="product-detail  side-border">
+                <section class="checkout-review">
+                    <div class="checkout-img">
+                        <img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" />
+                    </div>
+                    <div class="checkout-prod-cont">
+                        <p>Black & Red Wind Jacket</p>
+                        <p>Size: </p>
+                        <p>NOK 1 900,00</p>
+                    </div>
+                </section>
+                <section class="checkout-costs">
+                    <div class="costs-headings">
+                        <p>Subtotal</p>
+                        <p>Shipping</p>
+                        <p>GST</p>
+                        <p class="bold-heading">Total amount</p>
+                    </div>
+                    <div class="costs-prices">
+                        <p>NOK 1 900, 00</p>
+                        <p>NOK &nbsp;&nbsp;&nbsp;100, 00</p>
+                        <p>NOK &nbsp;&nbsp;&nbsp;400, 00</p>
+                        <p class="bold-heading">NOK 2 000, 00</p>
+                    </div>
+                </section>
             </section>
         </div>
     </main>

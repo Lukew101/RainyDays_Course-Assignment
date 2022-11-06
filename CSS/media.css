@@ -11,7 +11,7 @@
     /* General */
     .products {
         width: 150px;
-        height: 275px;
+        height: 250px;
     }
     
     .products img {
@@ -102,17 +102,18 @@
         width: 80px;
     }
 
-    /* Checkout Payment */
-    .checkout-dets-main h1 {
-        margin-left: 20%;
-        justify-content: left;
-    }
+    /* Checkout */
+    .checkout-h1 {
+        margin-bottom: 50px;
+    } 
 
-    .checkout-dets-flex {
+    /* Checkout Payment */
+
+    .checkout-flex {
         display: flex;
     }
 
-    .checkout-dets-flex > * {
+    .checkout-flex > * {
         flex: 1;
     }
 
@@ -132,7 +133,7 @@
 @media (min-width: 800px) {
     /* General */
     .products {
-        margin: 5px 10px;
+        margin: 10px;
         width: 160px;
     }
 
