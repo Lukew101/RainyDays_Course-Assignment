@@ -9,8 +9,10 @@ h1 {
     background-position: top center;
     min-height: 30vh;
     position: relative;
-    max-width: 2000px;
+    max-width: 100%;
     align-content: center;
+    text-align: center;
+    display: block;
 }
 
 .autumn-header,
@@ -18,20 +20,22 @@ h1 {
     color: white;
 }
 
+.cta-autumn-div {
+    margin-top: 210px;
+}
+
 .cta-autumn {
     background-color: white;
     border-radius: 8px;
     color: black;
     font-weight: bold;
-    position: absolute;
-    bottom: 10px;
-    left: 35%;
+    position: relative;
     padding: 3px 6px;
     text-align: center;
 }
 
 .home-cat {
-    margin: 5px 10px;
+    margin: 0 10px;
 }
 
 .jacket-cat-txt {
@@ -41,7 +45,7 @@ h1 {
 }
 
 .categories__home {
-    display: flex;
+    display: grid;
     justify-content: center;
 }
 
@@ -50,7 +54,7 @@ h1 {
 }
 
 .categories__home img {
-    width: 150px;
+    width: 200px;
 }
 
 .pop-product-sec {

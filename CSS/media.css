@@ -26,17 +26,27 @@
         min-height: 40vh;
     }
 
-    .cta-autumn {
-        left: 40%;
-    }
-
     .popular__products {
         grid-template-columns: 1fr 1fr 1fr;
     }
 
-    .categories__home img {
-        width: 200px;
+    .categories__home h2 {
+        font-size: 20px;
     }
+
+    .categories__home {
+        display: flex;
+        justify-content: center;
+    }
+
+    .jacket-cat-txt {
+        bottom: 50px;
+    }
+
+    .autumn-home .cta-autumn-div {
+        margin-top: 300px;
+    }
+    
 
     /* About us */
     .about-us {
@@ -102,24 +112,60 @@
     /* Checkout */
     .checkout-h1 {
         margin-bottom: 50px;
+        text-align: left;
+        margin-left: 10px;
     } 
-
-    /* Checkout Payment */
 
     .checkout-flex {
         display: flex;
     }
 
-    .checkout-flex > * {
-        flex: 1;
+    .checkout-flex .checkout-form {
+        justify-content: left;
+        margin: 0 10px;
     }
+
+    .checkout-form {
+        flex-basis: 40%;
+    }
+
+    .product-detail {
+        flex-basis: 60%;
+    }
+
+    .product-detail .checkout-review,
+    .product-detail .checkout-costs {
+        align-items: left;
+        justify-content: left;
+    }
+
+    .product-detail .order-sum-head {
+        text-align: left;
+    }
+
+    .checkout-costs {
+        margin: 0 5%;
+    }
+    /* Checkout Payment */
 
     .side-border {
         border-left: 1px solid;
         margin-left: 10px;
     }
 
-   
+    .checkout-flex .card-paypal-flex {
+        flex-basis: 40%;
+        justify-content: left;
+    }
+
+
+    .checkout-succ-main .checkout-review,
+    .checkout-succ-main .order-sum-head,
+    .checkout-succ-main .checkout-img,
+    .checkout-succ-main .checkout-costs {
+        margin-left: 10px;
+    }
+
     /* Footer */
 
     footer {
@@ -136,11 +182,15 @@
     .thumb-img img:hover,
     .products:hover {
         transform: scale(1.1);
-        border: 1px solid gray;
+        border: 1px solid gainsboro;
     }
 
     .home-cat:hover {
         transform: scale(1.1);
+    }
+
+    .products {
+        background: white;
     }
 
     /* Header */
@@ -180,16 +230,16 @@
         background-position: center left;
     }
 
-    .cta-autumn {
-        left: 45%;
-    }
-
     .popular__products {
         grid-template-columns: 1fr 1fr 1fr 1fr;
     }
 
     .categories__home img {
-        width: 250px;
+        width: 300px;
+    }
+
+    .autumn-home .cta-autumn-div {
+        margin-top: 440px;
     }
 
     /* About us */
@@ -208,12 +258,9 @@
     }
 
     /* Contact us */
-      .contact-form {
-        margin: 0 25%;
-    }
 
     .contact-main h1 {
-        margin: 30px 12%;
+        margin: 30px 5%;
     }
 
     header nav {
@@ -269,12 +316,34 @@
     }
 
     .product-spec-imgs {
-        flex: 80vh;
+        flex: 50%;
     }
 
     #size-butt {
         margin-left: 0;
     }
+    /* Checkout Success */
+    .check-succ-flex {
+        display: flex;
+    }
+
+    .checkout-summary {
+        flex-basis: 60%;
+    }
+    
+    .checkout-summary h2 {
+        font-size: 40px;
+        margin: 0px 10px;
+    }
+    
+    .checkout-summary h2 i {
+        font-size: 50px;
+    }
+
+    .check-succ-flex .product-detail {
+        border-left: solid 1px;
+    }
+
 
     /* Footer */
     footer {

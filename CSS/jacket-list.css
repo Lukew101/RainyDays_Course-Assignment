@@ -73,7 +73,6 @@ h1 {
 .product-spec-imgs {
     display: flex;
     flex-direction: column;
-    margin-bottom: 10px;
     align-items: center;
 }
 
@@ -104,7 +103,7 @@ h1 {
 }
 
 .spec-rev-descr {
-    margin: 0 10px;
+    margin: 20px;
 }
 
 #size-butt {
@@ -120,3 +119,6 @@ h1 {
     margin: 0;
 }
 
+.small-review-txt {
+    font-size: 14px;
+}

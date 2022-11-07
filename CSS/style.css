@@ -55,7 +55,7 @@ header {
     position: relative;
     max-width: 70px;
     max-height: 100%;
-    margin-left: 2px;
+    margin-left: 5px;
 }
 
 nav,
@@ -76,7 +76,7 @@ header nav {
 }
 
 header nav ul {
-    padding-left: 15px;
+    padding: 0 25px;
     margin: 0;
 }
 
@@ -147,6 +147,7 @@ main {
     text-align: left;
     margin-bottom: 10px;
     justify-content: center;
+    max-width: 250px;
 }
 
 .form-wrapper > * {
@@ -159,9 +160,9 @@ main {
 .popular__products {
     display: grid;
     grid-template-columns: 1fr;
-    place-items: center;
     justify-content: center;
-    margin: 0 10%;
+    margin: 0 20px;
+    
 }
 
 .products {
@@ -174,11 +175,11 @@ main {
 }
 
 .products h3 {
-    font-size: 14px;
+    font-size: 16px;
 }
 
 .products p {
-    font-size: 12px;
+    font-size: 14px;
 }
 
 .products img {

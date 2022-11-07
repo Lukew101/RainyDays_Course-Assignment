@@ -9,11 +9,17 @@ h1 {
 
 .checkout-review {
     border-bottom: 1px solid;
-    margin: 0 10%;
+    margin: 0 5%;
+}
+
+.order-sum-head {
+    margin: 0 5%;
+    font-weight: bold;
+    text-align: center;
 }
 
 .checkout-review img {
-    width: 80px;
+    width: 100px;
 }
 
 .checkout-review p,
@@ -30,10 +36,6 @@ h1 {
     justify-content: center;
 }
 
-.card-paypal-box i {
-    font-size: 34px;
-    margin: 30px 0;
-}
 
 input {
     margin: 5px 0;
@@ -41,6 +43,10 @@ input {
 
 
 /* Order Summary */
+h1 {
+    text-align: center;
+}
+
 .checkout-img,
 .checkout-prod-cont {
     margin: 20px 20px;
@@ -51,16 +57,10 @@ input {
 }
 
 /* Checkout Details */
-.form-wrapper {
+.checkout-form {
     display: grid;
-    text-align: left;
-    margin: 0 20%;
+    justify-content: center;
 }
-
-#input-bar {
-    max-width: 250px;
-}
-
 
 /* Checkout Payment */
 
@@ -74,38 +74,67 @@ form .card-form,
     display: none;
 }
 
+.card-paypal-box {
+    border: solid 1px gainsboro;
+    border-radius: 5px;
+    padding: 2px;
+    max-height: 35px;
+    min-width: 78px;
+    margin-right: 10px;
+}
+
+.card-paypal-box:hover {
+    background: lightgray;
+}
+
 #card-checkbox:checked ~ form .card-form,
 #paypal-checkbox:checked ~ form .paypal-form {
     display: grid;
-    position: relative;
+    position: absolute;
+    left: 1vh;
 }
 
-
-
-.checkout-succ-info {
+.checkout-summary {
     text-align: left;
-    align-content: center;
 }
 
-.checkout-succ-info h2,
-.checkout-succ-info h3,
-h1 {
-    text-align: center;
+.checkout-summary h2 {
+    text-align: left;
+    margin-left: 20px;
 }
 
-.checkout-succ-info p {
+.card-paypal-box i {
+    font-size: 34px;
+}
+
+/* Checkout Success */
+.checkout-summary p,
+.checkout-summary h3
+ {
     margin: 20px 10px;
 }
 
-.checkout-succ-info .cta-main {
+.checkout-summary .cta-main {
     display: flex;
     justify-content: center;
 }
 
 .card-paypal-flex {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
+    margin: 0 10px;
+    margin-bottom: 300px;
 }
 
+.checkout-summary h2 {
+    color: green;
+    font-size: 2em;
+}
 
+.checkout-summary h2 i {
+    font-size: 70px;
+}
 
+.checkout-summary {
+    flex-basis: 60%;
+}
