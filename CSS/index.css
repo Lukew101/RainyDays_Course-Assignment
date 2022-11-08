@@ -1,5 +1,6 @@
 h1 {
-    text-align: center;  
+    text-align: center;
+    flex: 0.95;  
 }
 
 .autumn-home {
@@ -10,18 +11,14 @@ h1 {
     min-height: 30vh;
     position: relative;
     max-width: 100%;
-    align-content: center;
     text-align: center;
-    display: block;
+    display: flex;
+    flex-direction: column;
 }
 
-.autumn-header,
+.autumn-home,
 .categories__home h2 {
     color: white;
-}
-
-.cta-autumn-div {
-    margin-top: 210px;
 }
 
 .cta-autumn {

@@ -55,10 +55,6 @@ h1 {
     border-bottom: solid 0.1px gainsboro;
 }
 
-.popular__products {
-    margin: 0;
-}
-
 /* Jacket specific */
 .spec-main-img img {
     width: 250px;

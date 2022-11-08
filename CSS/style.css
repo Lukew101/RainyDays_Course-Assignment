@@ -37,6 +37,10 @@ body {
     font-weight: bold;
 }
 
+h3 span {
+    display: block;
+}
+
 /* Header */
 header {
     display: flex;
@@ -161,7 +165,7 @@ main {
     display: grid;
     grid-template-columns: 1fr;
     justify-content: center;
-    margin: 0 20px;
+    margin: 5px 20px;
     
 }
 
