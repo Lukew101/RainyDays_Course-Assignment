@@ -3,14 +3,13 @@
     grid-template-columns: 1fr;
 }
 
-textarea,
-#input-bar {
-    max-width: 200px;
-}
-
 .form-wrapper {
     border: solid;
     border-width: 1px;
+}
+
+input {
+    margin-bottom: 5px;
 }
 
 h2 {
@@ -18,7 +17,7 @@ h2 {
 }
 
 .contact-us-form {
-    margin: 10px;
+    margin: 25px 30px;
 }
 
 .contact-main h1 {
@@ -30,11 +29,25 @@ h2 {
     margin: 0 20%;
 }
 
+.contact-form-placement {
+    display: flex;
+    justify-content: left;
+}
+
 textarea {
     height: 50%;
     min-height: 100px;
 }
 
 .cta-send {
-    margin: 5px 25%;
+    margin: 5px 20%;
+    background-color: #0A3641;
+    color: white;
+    border-radius: 5px;
+    width: 100px;
+    border-color: #0A3641;
+}
+
+.phone-social-wrap i {
+    font-size: 50px;
 }

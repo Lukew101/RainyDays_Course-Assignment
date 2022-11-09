@@ -12,7 +12,7 @@ h1 {
     font-size: 24px;
 }
 
-h3, p, nav, a, .filter {
+h3, p, nav, a, .filter, label, input {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
@@ -62,21 +62,24 @@ header {
     margin-left: 5px;
 }
 
-nav,
+header nav {
+    justify-content: center;
+    position: absolute;
+    background: #0A3641;
+    left: -100vh;
+    top: 60px;
+    min-width: 100vh;
+    transition: left 0.3s ease-in-out;
+}
+
 #menu-checkbox {
     display: none;
 }
 
 #menu-checkbox:checked ~ nav {
     display: block;
-}
-
-header nav {
-    justify-content: center;
-    position: absolute;
-    background: #d9d9d9;
-    left: 0px;
-    top: 60px;
+    left: 0;
+    transition: left 0.3s ease-in-out;
 }
 
 header nav ul {
@@ -91,7 +94,9 @@ header nav li {
 
 header nav a {
     display: block;
-    padding: 0 10px 20px;
+    padding: 0 0 20px;
+    color: white;
+    font-weight: bold;
 }
 
 nav li {
@@ -116,7 +121,7 @@ nav li {
 
 /* Main */
 main {
-    margin-top: 40px;
+    margin-top: 60px;
     min-height: 90vh;
 }
 
@@ -166,11 +171,10 @@ main {
     grid-template-columns: 1fr;
     justify-content: center;
     margin: 5px 20px;
-    
 }
 
 .products {
-    margin: 20px;
+    margin: 20px 10px;
     background: #DDE0E1;
     width: 80%;
     height: auto;

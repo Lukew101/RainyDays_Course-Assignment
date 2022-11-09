@@ -17,11 +17,16 @@
 #type-checkbox:checked ~ .type-nav {
     display: block;
     position: absolute;
-    left: -40%;
-    width: max-content;
+    left: -2vh;
+    width: 10vh;
     background: white;
     margin: 5px;
+    border: solid 1px gainsboro;
+    margin-left: 20px;
+}
 
+#price-checkbox:checked ~ .price-nav {
+    width: 13vh;
 }
 
 main ul {
@@ -53,6 +58,11 @@ h1 {
 .filter-flex {
     display: flex;
     border-bottom: solid 0.1px gainsboro;
+}
+
+.popular__products {
+    justify-content: left;
+    margin: 0 0 0 10px;
 }
 
 /* Jacket specific */
@@ -109,6 +119,7 @@ h1 {
 
 .bold-heading {
     border-bottom: solid 1px;
+    font-size: 18px;
 }
 
 .review-p {
@@ -117,4 +128,12 @@ h1 {
 
 .small-review-txt {
     font-size: 14px;
+}
+
+.review-heading {
+    font-size: 16px;
+}
+
+.size-word {
+    margin-bottom: 5px;
 }

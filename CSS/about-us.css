@@ -7,6 +7,7 @@
     background-position: center;
     text-align: center;
     color: white;
+    top: -20px;
 }
 
 .about-us__main p {
@@ -31,4 +32,15 @@
 
 .mission-backstory img {
     width: 200px;
+}
+
+.about-us-txt {
+    position: absolute;
+    top: 70px;
+    left: 5%;
+    color: white;
+}
+
+.about-us-txt h1 {
+    text-align: center;
 }

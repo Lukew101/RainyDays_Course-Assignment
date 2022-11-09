@@ -42,55 +42,53 @@
         </div>
         <h1 class="checkout-h1">Payment Details</h1>
         <div class="checkout-flex">
-            <section class="card-paypal-flex">
+            <div class="card-paypal-flex">
                 <div class="card-paypal-box">
                     <label for=card-checkbox><i class="fa-solid fa-credit-card"></i> Card</label>
                     <input type="checkbox" id="card-checkbox" />
                     <form method="POST">
-                        <section class="card-form">
+                        <div class="card-form">
                             <p class="bold-heading">Card Details</p>
-                            <label for="country">Card owner</label>
-                            <input type="text" id= "country" name="message">
-                            <label for="address-1">Card number</label>
-                            <input type="text" id= "address-1" name="address-1">
-                            <label for="address-2">Expiration date</label>
-                            <input type="text" id= "address-2" name="address-2">
-                            <label for="state">CVV</label>
-                            <input type="text" id= "state" name="state">
-                            <section class="cta-continue">
+                            <label for="card-owner-card">Card owner</label>
+                            <input type="text" id="card-owner-card" name="card-owner-card">
+                            <label for="card-number-card">Card number</label>
+                            <input type="text" id="card-number-card" name="card-number-card">
+                            <label for="expiration-card">Expiration date</label>
+                            <input type="text" id="expiration-card" name="expiration-card">
+                            <label for="CVV">CVV</label>
+                            <input type="text" id="CVV-card" name="CVV">
+                            <div class="cta-continue">
                                 <div class="cta-main">
                                     <a href="/Checkout/checkout-succ.html">Confirm Details</a>
                                 </div>
-                            </section>
-                        </section>
+                            </div>
+                        </div>
                     </form>
                 </div>
                 <div class="card-paypal-box">
                     <label for=paypal-checkbox><i class="fa-brands fa-paypal"></i> Paypal</label>
                     <input type="checkbox" id="paypal-checkbox" />
                     <form  method="POST">
-                        <section class="paypal-form">
+                        <div class="paypal-form">
                             <p class="bold-heading">Paypal Details</p>
-                            <label for="country">Card owner</label>
-                            <input type="text" id= "country" name="message">
-                            <label for="address-1">Card number</label>
-                            <input type="text" id= "address-1" name="address-1">
-                            <label for="address-2">Expiration date</label>
-                            <input type="text" id= "address-2" name="address-2">
-                            <label for="state">CVV</label>
-                            <input type="text" id= "state" name="state">
-                            <section class="cta-continue">
+                            <label for="account-owner-paypal">Acccount owner</label>
+                            <input type="text" id="account-owner-paypal" name="account-owner-paypal">
+                            <label for="paypal-email-paypal">Email</label>
+                            <input type="text" id="email-paypal" name="paypal-email-paypal">
+                            <label for="phone-number-paypal">Phone number</label>
+                            <input type="text" id="phone-number-paypal" name="phone-number-paypal">
+                            <div class="cta-continue">
                                 <div class="cta-main">
                                     <a href="/Checkout/checkout-succ.html">Confirm Details</a>
                                 </div>
-                            </section>
-                        </section>
+                            </div>
+                        </div>
                     </form>
                 </div>
-            </section>
-            <section class="product-detail  side-border">
+            </div>
+            <div class="product-detail  side-border">
                 <p class="order-sum-head">Order Summary</p>
-                <section class="checkout-review">
+                <div class="checkout-review">
                     <div class="checkout-img">
                         <img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" />
                     </div>
@@ -99,8 +97,8 @@
                         <p>Size: </p>
                         <p>NOK 1 900,00</p>
                     </div>
-                </section>
-                <section class="checkout-costs">
+                </div>
+                <div class="checkout-costs">
                     <div class="costs-headings">
                         <p>Subtotal</p>
                         <p>Shipping</p>
@@ -113,8 +111,8 @@
                         <p>NOK &nbsp;&nbsp;&nbsp;400, 00</p>
                         <p class="bold-heading">NOK 2 000, 00</p>
                     </div>
-                </section>
-            </section>
+                </div>
+                </div>
         </div>
     </main>
     <footer>

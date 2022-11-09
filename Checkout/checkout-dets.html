@@ -7,8 +7,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RainyDays │ Checkout Details</title>
     <link href="../CSS/style.css" rel="stylesheet" />
-    <link href="../CSS/media.css" rel="stylesheet" />
     <link href="../CSS/checkout.css" rel="stylesheet" />
+    <link href="../CSS/media.css" rel="stylesheet" />
     <script src="https://kit.fontawesome.com/958e18979f.js" crossorigin="anonymous"></script>
 </head>
 <body>
@@ -41,41 +41,39 @@
         <div class="checkout-flex">
             <div class="checkout-form">
                 <form method="POST">
-                    <div class="form-wrapper">
-                        <section>
+                    <div class="form-grid">
                             <label for="first-name">First name</label>
-                            <input type="text" id="input-bar" name="first-name" />
-                            <label for="first-name">Last name</label>
-                            <input type="text" id="input-bar" name="first-name" />
+                            <input type="text" id="first-name" name="first-name" />
+                            <label for="last-name">Last name</label>
+                            <input type="text" id="last-name" name="last-name" />
                             <label for="email">Email</label>
-                            <input type="email" id="input-bar" name="email" />
+                            <input type="email" id="email" name="email" />
                             <label for="number">Phone number</label>
-                            <input type="tel" id="input-bar" name="telephone" />
+                            <input type="tel" id="phone-number" name="telephone" />
                             <h2>Billing Adress</h2>
                             <label for="country">Country</label>
-                            <input type="text" id= "input-bar" name="message">
+                            <input type="text" id="country" name="message">
                             <label for="address-1">Address 1</label>
-                            <input type="text" id= "input-bar" name="address-1">
+                            <input type="text" id="address-1" name="address-1">
                             <label for="address-2">Address 2</label>
-                            <input type="text" id= "input-bar" name="address-2">
+                            <input type="text" id="address-2" name="address-2">
                             <label for="state">State</label>
-                            <input type="text" id= "input-bar" name="state">
+                            <input type="text" id="state" name="state">
                             <label for="postal-code">Postal code</label>
-                            <input type="text" id= "input-bar" name="postal-code">
+                            <input type="text" id="postal-code" name="postal-code">
                             <label for="city">City</label>
-                            <input type="text" id="input-bar" name="city">
-                        </section>
-                        <section class="cta-continue">
+                            <input type="text" id="city" name="city">
+                        <div class="cta-continue">
                             <div class="cta-main">
                                 <a href="/Checkout/checkout-pay.html">Confirm Details</a>
                             </div>
-                        </section>
+                        </div>
                     </div>
                 </form>
             </div>
             <div class="product-detail  side-border">
                 <p class="order-sum-head">Order Summary</p>
-                <section class="checkout-review">
+                <div class="checkout-review">
                     <div class="checkout-img">
                         <img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" />
                     </div>
@@ -84,8 +82,8 @@
                         <p>Size: </p>
                         <p>NOK 1 900,00</p>
                     </div>
-                </section>
-                <section class="checkout-costs">
+                </div>
+                <div class="checkout-costs">
                     <div class="costs-headings">
                         <p>Subtotal</p>
                         <p>Shipping</p>
@@ -98,7 +96,7 @@
                         <p>NOK &nbsp;&nbsp;&nbsp;400, 00</p>
                         <p class="bold-heading">NOK 2 000, 00</p>
                     </div>
-                </section>
+                </div>
             </div>
         </div>
     </main>
