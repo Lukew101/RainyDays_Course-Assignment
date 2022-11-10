@@ -90,10 +90,6 @@
         text-align: left;
     }
 
-    .contact-form-placement {
-        justify-content: center;
-    }
-
     /* Jacket List */
     .product-list h1 {
         text-align: left;
@@ -266,9 +262,9 @@
     }
 
     .cta-autumn:hover {
-        background-color: #0A3641;
+        background-color: var(--cta-main-color);
         border-radius: 8px;
-        color: white;
+        color: var(--font-color-on-back);
         transition: 0.3s;
         border: white solid 2px;
     }
@@ -321,7 +317,33 @@
     #size-checkbox:checked ~ .size-nav,
     #price-checkbox:checked ~ .price-nav,
     #type-checkbox:checked ~ .type-nav {
+        display: none;
+    }
+
+    #colour-checkbox:hover ~ .colour-nav,
+    #size-checkbox:hover ~ .size-nav,
+    #price-checkbox:hover ~ .price-nav,
+    #type-checkbox:hover ~ .type-nav {
+        display: block;
+        position: absolute;
+        left: -2vh;
         width: 50vh;
+        background: white;
+        border: solid 1px gainsboro;
+        margin-left: 20px;
+    }
+
+    .colour-nav:hover,
+    .size-nav:hover,
+    .price-nav:hover,
+    .type-nav:hover {
+        display: block;
+        position: absolute;
+        left: -2vh;
+        width: 50vh;
+        background: white;
+        border: solid 1px gainsboro;
+        margin-left: 20px;
     }
 
     /* Jacket specific page */

@@ -1,10 +1,9 @@
-@import "imports/links.css";
-@import "imports/variables.css";
+@import "../CSS/Imports/variables.css";
 
 /* Global */
 h1,
 h2 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: var(--text-heading);
 }
 
 h1 {
@@ -13,7 +12,7 @@ h1 {
 }
 
 h3, p, nav, a, .filter, label, input {
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: var(--text-paragraph-others);
 }
 
 a, ul, li {
@@ -65,7 +64,7 @@ header {
 header nav {
     justify-content: center;
     position: absolute;
-    background: #0A3641;
+    background: var(--cta-main-color);
     left: -100vh;
     top: 60px;
     min-width: 100vh;
@@ -95,7 +94,7 @@ header nav li {
 header nav a {
     display: block;
     padding: 0 0 20px;
-    color: white;
+    color: var(--font-color-on-back);
     font-weight: bold;
 }
 
@@ -127,19 +126,16 @@ main {
 
 .breadcrumb {
     display: flex;
-    margin: 5px 10px;
+    margin: 10px;
     font-size: 14px;
 }
 
-.breadcrumb a {
-    margin-top: 15px;
-}
 
 .cta-main {
     border-radius: 5px;
     width: 200px;
     height: 33px;
-    background-color: #0A3641;
+    background-color: var(--cta-main-color);
     display: flex;
     align-items: center;
     justify-content: center;
@@ -148,7 +144,7 @@ main {
 
 .cta-main a,
 .cta-main i {
-    color: white;
+    color: var(--font-color-on-back);
 }
 
 .form-wrapper {
