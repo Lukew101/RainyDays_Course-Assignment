@@ -59,14 +59,32 @@
         text-align: left;
     }
 
+    .mission-backstory p {
+        margin: 0;
+    }
+
+    .mission-backstory p {
+        flex: 60%;
+    }
+
+    .about-h2,
+    .mission-backstory p {
+        text-align: left;
+        margin-left: 5%;
+    }
+
     .our-mission,
     .our-backstory {
-    display: flex;
-    justify-content: center;
+        display: flex;
+        justify-content: center;
     }
-    
-    .mission-backstory p {
-        max-width: 50%;
+
+    .miss-backstor-imgs {
+        margin: 0 10px;
+    }
+
+    .miss-backstor-imgs img {
+        width: 80%;
     }
 
     /* Contact us */
@@ -270,19 +288,19 @@
     }
 
     /* About us */
-    .about-us,
-    .our-mission,
-    .our-backstory {
-        min-height: 40vh;
+    .about-us {
+        min-height: 50vh;
     }
 
-    .mission-backstory img {
-        width: 300px;
+    .our-mission,
+    .our-backstory {
+        max-height: 30vh;
     }
 
     .about-us__main p {
         font-size: 16px;
     }
+   
 
     /* Contact us */
 
@@ -415,7 +433,6 @@
         border-left: solid 1px;
     }
 
-
     /* Footer */
     footer {
         grid-template-columns: 1fr 1fr 1fr 1fr;
@@ -425,4 +442,24 @@
         font-size: 50px;
         margin: 0 5px;
     }
+}
+
+@media (min-width: 1200px) {
+    /* Home */
+    .popular__products {
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    }
+
+    .product-spec-imgs {
+        flex: 20%;
+    }
+
+    .product-spec-imgs .spec-main-img img {
+        width: 450px;
+    }
+
+    .all-jack-info {
+        margin: 0 100px 0px 60px;
+    }
+
 }

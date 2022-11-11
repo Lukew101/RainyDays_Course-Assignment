@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="description" content="View one of our most popular jackets - the black and red wind jacket">
+    <meta name="description" content="Select a payment method to complete your purchase with the jacket company Rainy Days">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>RainyDays │ Checkout Payment</title>
     <link href="../CSS/style.css" rel="stylesheet" />
@@ -15,9 +15,9 @@
     <header>
         <a href="../index.html"><img class="logo" src="../Images/RainyDays_Logo.png" alt="Rainy Days company logo"></a>
         <div class="nav-bars-menu">
-             <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
-             <input type="checkbox" id="menu-checkbox" />
-             <nav>
+            <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
+            <input type="checkbox" id="menu-checkbox" name="menu-checkbox" />
+            <nav>
                 <ul>
                     <li class="home-remove"><a href="../index.html">Home</a></li>
                     <li><a href="../aut-releases.html">Autumn Releases</a></li>
@@ -25,8 +25,8 @@
                     <li><a href="../wom-jack-list.html">Women</a></li>
                     <li><a href="../about.html">About us</a></li>
                     <li><a href="../contact.html">Contact us</a></li>
-               </ul>
-             </nav>
+                </ul>
+            </nav>
         </div>
         <div class="search-bar_lens">
             <div class="fa fa-search"></div>
@@ -56,7 +56,7 @@
                             <label for="expiration-card">Expiration date</label>
                             <input type="text" id="expiration-card" name="expiration-card">
                             <label for="CVV">CVV</label>
-                            <input type="text" id="CVV-card" name="CVV">
+                            <input type="text" id="CVV" name="CVV">
                             <div class="cta-continue">
                                 <div class="cta-main">
                                     <a href="/Checkout/checkout-succ.html">Confirm Details</a>
@@ -73,7 +73,7 @@
                             <p class="bold-heading">Paypal Details</p>
                             <label for="account-owner-paypal">Acccount owner</label>
                             <input type="text" id="account-owner-paypal" name="account-owner-paypal">
-                            <label for="paypal-email-paypal">Email</label>
+                            <label for="email-paypal">Email</label>
                             <input type="text" id="email-paypal" name="paypal-email-paypal">
                             <label for="phone-number-paypal">Phone number</label>
                             <input type="text" id="phone-number-paypal" name="phone-number-paypal">

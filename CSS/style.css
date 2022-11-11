@@ -126,8 +126,12 @@ main {
 
 .breadcrumb {
     display: flex;
-    margin: 10px;
+    margin: 0px 0px 10px 10px;
     font-size: 14px;
+}
+
+.breadcrumb .current-page {
+    text-decoration: underline;
 }
 
 
