@@ -40,6 +40,10 @@ h3 span {
     display: block;
 }
 
+.bold-p {
+    font-weight: bold;
+}
+
 /* Header */
 header {
     display: flex;
@@ -142,14 +146,13 @@ main {
 
 .breadcrumb {
     display: flex;
-    margin: 0px 0px 10px 10px;
+    margin: 10px 0 20px 10px;
     font-size: 14px;
 }
 
 .breadcrumb .current-page {
     text-decoration: underline;
 }
-
 
 .cta-main {
     border-radius: 5px;
@@ -162,9 +165,12 @@ main {
     margin: 10px 0;
 }
 
-.cta-main a,
-.cta-main i {
+.cta-main {
     color: var(--font-color-on-back);
+}
+
+.cta-main i {
+    margin: 0 10px;
 }
 
 .form-wrapper {

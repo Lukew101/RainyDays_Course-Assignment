@@ -26,7 +26,6 @@ h1 {
 .checkout-review p,
 .checkout-costs p {
     font-size: 14px;
-
 }
 
 .checkout-review,
@@ -58,6 +57,13 @@ input {
     margin: 20px 10px;
 }
 
+.card-paypal-flex {
+    display: flex;
+    justify-content: center;
+    margin: 0 10px;
+    margin-bottom: 330px;
+}
+
 .checkout-form .form-grid,
 .checkout-form input {
     width: 250px;
@@ -71,7 +77,7 @@ input {
 }
 
 .card-paypal-flex input {
-    padding: 2px;
+    padding: 5px;
 }
 
 .form-grid {
@@ -136,13 +142,6 @@ form .card-form,
 .checkout-summary .cta-main {
     display: flex;
     justify-content: center;
-}
-
-.card-paypal-flex {
-    display: flex;
-    justify-content: center;
-    margin: 0 10px;
-    margin-bottom: 320px;
 }
 
 .checkout-summary h2 {

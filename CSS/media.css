@@ -45,7 +45,6 @@
         bottom: 50px;
     }
     
-
     /* About us */
     .about-us {
         background-image: url(../Images/About-us-large.jpg);
@@ -163,7 +162,6 @@
 
     .product-detail .checkout-review,
     .product-detail .checkout-costs {
-        align-items: left;
         justify-content: left;
     }
 
