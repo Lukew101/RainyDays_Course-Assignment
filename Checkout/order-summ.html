@@ -17,20 +17,24 @@
         <div class="nav-bars-menu">
             <label for="menu-checkbox"><i class="fas fa-bars"></i></label>
             <input type="checkbox" id="menu-checkbox" name="menu-checkbox" />
-            <nav>
+            <nav class="header-nav">
                 <ul>
-                    <li class="home-remove"><a href="../index.html">Home</a></li>
-                    <li><a href="../aut-releases.html">Autumn Releases</a></li>
-                    <li><a href="../men-jack-list.html">Men</a></li>
-                    <li><a href="../wom-jack-list.html">Women</a></li>
-                    <li><a href="../about.html">About us</a></li>
-                    <li><a href="../contact.html">Contact us</a></li>
+                    <li class="home-remove"><a href="../index.html" class="active">Home</a></li>
+                    <li class="cat-name-header"><a href="../aut-releases.html">Autumn</a></li>
+                    <li class="cat-name-header"><a href="../men-jack-list.html">Men</a></li>
+                    <li class="header-women"><a href="../wom-jack-list.html">Women</a></li>
+                    <li class="small-font-head"><a href="../about.html">About us</a></li>
+                    <li class="small-font-head"><a href="../contact.html">Contact us</a></li>
                 </ul>
             </nav>
         </div>
         <div class="search-bar_lens">
-            <div class="fa fa-search"></div>
-            <input class="search-bar" type="search" placeholder="Search here">
+            <form action="/" method="GET" class="form">
+                <input type="search" placeholder="Search" class="search-bar-header" />
+                <button type="submit" class="search-button">
+                    <img src="/Images/search-lens.jpg">
+                </button>
+            </form>
         </div>
         <div class="shopping-cart">
             <a href="../Checkout/order-summ.html"><i class=" fa fa-shopping-cart"></i></a>
@@ -40,7 +44,7 @@
         <h1 class="order-summ-h1">Order Summary</h1>
         <div class="checkout-review">
             <div class="checkout-img">
-                <img src="/Jacket-imgs/Black-Red-Wind.png" alt="Black and Red Wind Jacket" />
+                <img src="/Jacket-imgs/Black-Red-Wind.jpg" alt="Black and Red Wind Jacket" />
             </div>
             <div class="checkout-prod-cont">
                 <p>Black & Red Wind Jacket</p>

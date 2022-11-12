@@ -56,9 +56,9 @@ header {
 
 .logo {
     position: relative;
-    max-width: 70px;
-    max-height: 100%;
-    margin-left: 5px;
+    max-width: 100px;
+    max-height: auto;
+    margin: 5px 5px;
 }
 
 header nav {
@@ -102,20 +102,36 @@ nav li {
     list-style: none;
 }
 
-.fa,
-.fas {
+header i {
+    font-size: 18px;
     color: black;
     padding: 0 10px;
 }
 
-.search-bar_lens {
+header form {
     display: flex;
-    align-items: center;
-  
+    flex-direction: row;
 }
 
-.search-bar {
+.search-bar-header {
     width: 100%;
+    padding: 6px 35px 6px 15px;
+    border: none;
+    border-radius: 100px;
+    outline: none;
+}
+
+header .search-button {
+    background: transparent;
+    border: none;
+    outline: none;
+    margin-left: -33px;
+}
+
+header .search-button img {
+    width: 20px;
+    height: 20px;
+    object-fit: cover;
 }
 
 /* Main */
@@ -175,11 +191,10 @@ main {
 
 .products {
     margin: 20px 10px;
-    background: #DDE0E1;
     width: 80%;
     height: auto;
     text-align: center;
-    border: solid 1px white;
+    border: solid 1px #d9d9d9;
 }
 
 .products h3 {

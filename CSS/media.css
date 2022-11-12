@@ -7,18 +7,20 @@
 }
 
 @media (min-width: 500px) {
-    /* General */
- 
-    
+    /* Header */
     .logo {
-        min-width: 90px;
-        min-height: 100%;
+        max-width: 120px;
+        margin: 2px 10px;
     }
 
     .search-bar_lens {
         padding-left: 0px;
         padding-right: 0px;
-        width: 50%;
+        width: 30%;
+    }
+
+    header .shopping-cart i {
+        margin-right: 5px;
     }
 
     /* Home Page */
@@ -220,6 +222,7 @@
 
     .products {
         background: white;
+        border: solid 1px white;
     }
 
     /* Header */
@@ -228,17 +231,17 @@
     }
 
     header nav {
-        display: inline;
+        display: flex;
         position: relative;
         left: 0;
         top: 6px;
         transition: none;
-        min-width: 50vh;
+        min-width: 44vh;
         background: #D9D9D9;
     }
 
     header nav li:hover {
-        transform: scale(1.2);
+        transform: scale(1.1);
         transition: 0.2s;
     }
 
@@ -253,8 +256,12 @@
     }
 
     header nav ul {
-        font-size: 0.8em;
+        font-size: 1em;
         padding: 0;
+    }
+
+    .small-font-head {
+        font-size: 0.7em;
     }
 
     .home-remove {
@@ -306,24 +313,6 @@
 
     .contact-main h1 {
         margin: 30px 5%;
-    }
-
-    header nav {
-        display: flex;
-        flex-wrap: wrap;
-        position: relative;
-        left: 0;
-        top: 6px;
-    }
-
-    header nav li {
-        display: inline-block;
-        padding: 0;
-    }
-
-    header nav ul {
-        font-size: 0.8em;
-        padding: 0;
     }
 
     /* Jacket list page */
@@ -445,6 +434,23 @@
 }
 
 @media (min-width: 1200px) {
+    /* Header */
+    .header-nav {
+        min-width: 60vh;
+    }
+
+    header .cat-name-header {
+        margin-right: 20px;
+    }
+
+    header nav ul {
+        font-size: 1.1em;
+    }
+    
+    header .header-nav .header-women {
+        margin-right: 80px;
+    }
+    
     /* Home */
     .popular__products {
         grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
