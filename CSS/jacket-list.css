@@ -25,7 +25,7 @@
 }
 
 #price-checkbox:checked ~ .price-nav {
-    width: 15vh;
+    width: 17vh;
 }
 
 main ul {
@@ -52,7 +52,6 @@ h1 {
     text-align: center;
     margin-top: 30px;
 }
-
 
 .filter ul {
     font-size: 12px;

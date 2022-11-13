@@ -38,7 +38,7 @@
 .about-us-txt {
     position: absolute;
     top: 20px;
-    left: 5%;
+    margin: 0 5%;
     color: var(--font-color-on-back);
 }
 

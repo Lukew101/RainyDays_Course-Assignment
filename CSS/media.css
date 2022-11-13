@@ -25,7 +25,7 @@
 
     /* Home Page */
     .autumn-home {
-        min-height: 40vh;
+        min-height: 50vh;
     }
 
     .popular__products {
@@ -48,7 +48,6 @@
     /* About us */
     .about-us {
         background-image: url(../Images/About-us-large.jpg);
-        min-height: 50vh;
         text-align: left;
     }
 
@@ -58,6 +57,10 @@
 
     .about-us-txt h1 {
         text-align: left;
+    }
+
+    .about-us {
+        top: -25px;
     }
 
     .mission-backstory p {
@@ -185,7 +188,6 @@
         justify-content: left;
     }
 
-
     .checkout-succ-main .checkout-review,
     .checkout-succ-main .order-sum-head,
     .checkout-succ-main .checkout-img,
@@ -194,7 +196,6 @@
     }
 
     /* Footer */
-
     footer {
         grid-template-columns: 1fr 1fr 1fr;
     }
@@ -278,7 +279,7 @@
 
     /* Home */
     .autumn-home {
-        min-height: 55vh;
+        min-height: 60vh;
         background-position: center left;
     }
 
@@ -311,10 +312,8 @@
     .about-us__main p {
         font-size: 16px;
     }
-   
 
     /* Contact us */
-
     .contact-main h1 {
         margin: 30px 5%;
     }
@@ -404,6 +403,7 @@
     .checkout-flex .card-paypal-flex {
         flex-basis: 30%;
     }
+    
     /* Checkout Success */
     .check-succ-flex {
         display: flex;
