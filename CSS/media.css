@@ -85,7 +85,7 @@
     }
 
     .miss-backstor-imgs img {
-        width: 80%;
+        width: 60%;
     }
 
     /* Contact us */
@@ -270,6 +270,12 @@
         width: 25%;
     }
 
+    .search-bar-header,
+    header a,
+    header .nav-bars-menu {
+        margin: 0;
+    }
+
     /* Home */
     .autumn-home {
         min-height: 55vh;
@@ -294,7 +300,7 @@
 
     /* About us */
     .about-us {
-        min-height: 50vh;
+        min-height: 60vh;
     }
 
     .our-mission,

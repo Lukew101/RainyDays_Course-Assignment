@@ -118,12 +118,11 @@ header form {
 }
 
 .search-bar-header {
-    width: 100%;
+    width: 90%;
     padding: 6px 35px 6px 15px;
     border: none;
     border-radius: 100px;
     outline: none;
-    margin: 0 5px;
 }
 
 header .search-button {
@@ -137,6 +136,12 @@ header .search-button i {
     width: 20px;
     height: 20px;
     object-fit: cover;
+}
+
+.search-bar-header,
+header a,
+header .nav-bars-menu {
+    margin: 0 5px;
 }
 
 /* Main */
