@@ -123,16 +123,17 @@ header form {
     border: none;
     border-radius: 100px;
     outline: none;
+    margin: 0 5px;
 }
 
 header .search-button {
     background: transparent;
     border: none;
     outline: none;
-    margin-left: -33px;
+    margin-left: -43px;
 }
 
-header .search-button img {
+header .search-button i {
     width: 20px;
     height: 20px;
     object-fit: cover;
@@ -234,7 +235,7 @@ footer {
 }
 
 .footer-det {
-    padding: 0 5px;
+    margin: 0 10px;
 }
 
 footer h3 {
